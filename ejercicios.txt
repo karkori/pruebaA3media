@@ -1,0 +1,50 @@
+PRUEBA TÉCNICA
+---------------
+
+Tiempo máximo: 1 hora y media
+Se puede utilizar internet
+
+ESCRIBE TU NOMBRE: Mostapha Bourarach
+
+
+EJERCICIO 0
+-----------
+Mofificar la clase Factorial para que calcule el factorial de un número pasado como argumento.
+
+
+EJERCICIO 1
+-----------
+En este ejercicio se debe cumplir: 
+	A. El servlet debe recibir peticiones GET en la url: http://localhost:8080/
+	B. Debe contar cada petición y devolver el valor actual.
+	
+NOTA: El server (Tomcat) sobre el que ejecutar el ejercicio ya debe estar creado, no tienes que crearlo.
+
+	
+EJERCICIO 2
+-----------
+Corregir los errores de ejecución sin usar anotaciones.
+
+
+EJERCICIO 3
+-----------
+Corregir los errores de ejecución. Debe solucionarse mediante anotaciones.
+
+
+EJERCICIO 4
+-----------
+Crea un REST en la clase UserController, con los métodos CRUD para la entidad User. 
+El servicio UserService con la lógica de negocio ya está creado. Haz uso de él en el controller.
+NOTA: El proyecto es un Spring Boot. Para arrancarlo, simplemente ejecutar el Main.
+
+EJERCICIO 5
+-----------
+Este método debe devolver el número más cercano a cero o el cero si existe. 
+En caso de econtrar números equidistantes, deberá devolver el positivo.
+
+
+EJERCICIO 6
+-----------
+Este método debe devolver true en caso de que la cadena recibida sea palíndroma. Devolverá false en cualquier otro caso.
+
+

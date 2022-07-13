@@ -1,0 +1,9 @@
+.DS_Store
+*.sh
+*/.classpath
+*/.project
+*/.settings/**
+*/target/**
+/.settings
+/.project
+/target
