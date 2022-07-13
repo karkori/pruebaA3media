@@ -24,7 +24,7 @@ public class Palimdrome {
 		 * "a esa paloma ese amo la pasea" "arenera"
 		 */
 		boolean isPalindrome = false;
-		String sReverse = new StringBuilder(s).reverse().toString();
+		String sReverse = new StringBuilder(s).reverse().toString().toLowerCase();
 		s = s.toLowerCase();
 		int slength = s.length()/2;
 		for (int i = 0; i < slength; i++) {
