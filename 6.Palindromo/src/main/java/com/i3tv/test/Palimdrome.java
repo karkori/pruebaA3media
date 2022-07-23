@@ -1,12 +1,13 @@
 package com.i3tv.test;
-
-import com.sun.tools.javac.util.StringUtils;
-
-import java.util.Locale;
-
 public class Palimdrome {
 	
 	public static void main(String[] args) {
+		System.out.println(""+ isPalindrome("lamal") );
+		System.out.println(""+ isPalindrome("jamal") );
+		System.out.println(""+ isPalindrome("12321") );
+		System.out.println(""+ isPalindrome("ghrtghrtghrt") );
+		System.out.println(""+ isPalindrome("a1a1a1a1a") );
+
 	}
 
 	/**
@@ -23,13 +24,15 @@ public class Palimdrome {
 		 * igual hacia adelante que hacia atrás. Ejemplos de palíndromos:
 		 * "a esa paloma ese amo la pasea" "arenera"
 		 */
-		boolean isPalindrome = false;
 		String sReverse = new StringBuilder(s).reverse().toString().toLowerCase();
 		s = s.toLowerCase();
 		int slength = s.length()/2;
 		for (int i = 0; i < slength; i++) {
-			isPalindrome = s.charAt(i) == sReverse.charAt(i);
+
+			if (!(s.charAt(i) == sReverse.charAt(i))){
+				return false;
+			}
 		}
-		return isPalindrome;
+		return true;
 	}
 }
